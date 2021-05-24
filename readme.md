@@ -1,16 +1,16 @@
-#Модуль landmark_detection - тетектирование якорных точек на человеческом лице
+# Модуль landmark_detection - тетектирование якорных точек на человеческом лице
   
 Реализация базируется на алгоритме SAN из открытого репозитория: https://github.com/D-X-Y/landmark-detection  
 Вместо PIL используется OpenCV  
 
-##Установка 
+## Установка 
 Рекоммендуется создать Python Environment, требуемые пакеты перечислены в  requirements.txt  
 Для корректной работы может так же потребоваться устанвить переменную окружения PYTHONPATH:  
 ....\landmark_detection\landmark_detection\SAN\lib  
 ....\landmark_detection\landmark_detection\SAN  
 ....\landmark_detection\landmark_detection  
 
-##Пример запуска демо-приложения: 
+## Пример запуска демо-приложения: 
 Скачать checkpoint_49.pth.tar из https://drive.google.com/drive/folders/14f2lcJVF6E4kIICd8icUs8UuF3J0Mutd 
 Активация Python Environment  
 cd ....\landmark_detection\landmark_detection  
