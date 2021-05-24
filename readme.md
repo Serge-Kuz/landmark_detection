@@ -10,7 +10,8 @@
 ....\landmark_detection\landmark_detection\SAN  
 ....\landmark_detection\landmark_detection  
 
-##Пример запуска демо-приложения:  
+##Пример запуска демо-приложения: 
+Скачать checkpoint_49.pth.tar из https://drive.google.com/drive/folders/14f2lcJVF6E4kIICd8icUs8UuF3J0Mutd 
 Активация Python Environment  
 cd ....\landmark_detection\landmark_detection  
 Запуск на CPU python demo.py --image ./Image.png --model ./SAN/snapshots/SAN_300W_GTB_itn_cpm_3_50_sigma4_128x128x8/checkpoint_49.pth.tar --face 819.27 432.15 971.70 575.87 --save_path temp_11.jpg --cpu   
